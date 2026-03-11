@@ -1,0 +1,21 @@
+correct_password = "ONEDOST"  
+attempts = 0                     
+authenticated = False            
+person = "SCHOLAR"
+
+
+while not authenticated:
+    
+    user_input = input("Enter Password: ")
+    attempts += 1
+    
+    
+    if user_input == correct_password:
+        print("Access Granted")
+        print(f"Total attempts: {attempts}")
+        authenticated = True      
+    else:
+        print(f"Access Denied :( Attempt #{attempts}. Please try again :)")
+
+
+print("System unlocked for User:", person)
