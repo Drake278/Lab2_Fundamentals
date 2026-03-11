@@ -1,0 +1,5 @@
+verification_hash = (byte_val * SEED_NUM) - loops
+
+print(f"Engineer: {ENGINEER}")
+print(f"First Letter: {first_letter} -> ASCII: {byte_val}")
+print(f"Verification Hash: {verification_hash}")
